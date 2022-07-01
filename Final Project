@@ -1,0 +1,46 @@
+#Welcome to Truth or Dare
+Input number of players
+Insert players names Choose Truth or Dare
+Computer decides the Truth or Dare question
+
+import random
+
+#---------items of truth or dare--------
+
+truth_items = ['What is your biggest fear?', 'Do you talk to yourself?', 'Are you scared of heights?']
+dare_items  = ['Prank call a friend', 'Quack like a duck in public', 'go into a store barefoot'
+#amount_of_plays = input('How many times do you wish to play?')
+#amount_of_plays = int(amount_of_plays)
+
+number_of_players = input('How many people are playing?')
+number_of_players = int(number_of_players)
+name_of_players = []
+
+answer = "ok!"
+
+for i in range(number_of_players) :
+    player_names = input("please enter player's name.")
+    names_of_players.append(player_names)
+
+    player = random.choice(names_of_players)
+    print('its «', player name, '»  turn')
+
+    truth_dare = input('type "truth" or "dare"')
+
+    truth_dare = str(truth_dare)
+
+    if truth_dare == 'truth' :
+        print(random.choice(truth_items))
+
+if truth_dare == 'dare' :
+        print(random.choice(dare_items))
+
+    answer = input("Continue the game?")
+    yes_or_no = input ("yes or no")
+    
+    if yes_no =='previous':
+    print(previous)
+    
+    if no_yes ==('Thanks_for_playing")
+    print(Thanks for playing!)
+    
